@@ -5,16 +5,12 @@ import com.mindflakes.colorizedproject.gColorLockedComponentMap
 import com.mindflakes.colorizedproject.gProjectColorLockedMap
 import com.mindflakes.colorizedproject.gProjectColorMap
 import com.mindflakes.colorizedproject.gProjectLockedComponentsMap
-import com.intellij.openapi.components.service
+
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.mindflakes.colorizedproject.services.ProjectService
 
 internal class ProjectManagerListener : ProjectManagerListener {
 
-    override fun projectOpened(project: Project) {
-        project.service<ProjectService>()
-    }
 
     override fun projectClosed(project: Project) {
         val currentColorSetter = ColorSetterFactory.getColorSetter()
