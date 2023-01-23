@@ -41,7 +41,7 @@ to colorize each project's title bar, which is visible from the taskbar windows 
 ## Compatibility ⚙️
 
 Supports all Intellij IDEs from version 2021.1 (211) and above!
-> ✅ Tested on all versions from 2021.1 to 2022.1
+> ✅ Tested on all versions from 2021.1 to 2022.3
 
 > ✅ Works on all Intellij products
 
