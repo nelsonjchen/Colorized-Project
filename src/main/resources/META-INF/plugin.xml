@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.mindflakes.colorizedproject</id>
-    <name>Project-Color</name>
-    <vendor>nowtilous</vendor>
+    <name>Colorized-Project</name>
+    <vendor>nelsonjchen</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 

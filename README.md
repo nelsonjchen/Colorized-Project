@@ -4,7 +4,7 @@
 
 ---
 
-This is a fork of the [Project-Color IntelliJ plugin of which the maintenance seems to be somewhat abandoned][original].
+This is a fork of the [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned][original].
 
 In general, some stale pull requests have been merged and some issues have been fixed.
 

@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# Project-Color Changelog
+# Colorized-Project Changelog
 
 ## [Unreleased]
 ### Added
