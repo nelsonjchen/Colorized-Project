@@ -1,6 +1,6 @@
-package com.github.nowtilous.projectcolor.color_setters
+package com.mindflakes.colorizedproject.color_setters
 
-import com.github.nowtilous.projectcolor.utils.OSTypeFactory
+import com.mindflakes.colorizedproject.utils.OSTypeFactory
 import com.intellij.openapi.externalSystem.service.execution.NotSupportedException
 
 /**
@@ -19,7 +19,7 @@ object ColorSetterFactory {
     private lateinit var mColorSetter: ColorSetter
 
     fun getColorSetter(): ColorSetter {
-        if (!::mColorSetter.isInitialized) {
+        if (!ColorSetterFactory::mColorSetter.isInitialized) {
             val osType = OSTypeFactory.getOperatingSystemType()
             if (osType in mColorSetterMap) {
                 mColorSetter = mColorSetterMap[osType]!!

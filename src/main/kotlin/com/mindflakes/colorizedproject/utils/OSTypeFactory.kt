@@ -1,4 +1,4 @@
-package com.github.nowtilous.projectcolor.utils
+package com.mindflakes.colorizedproject.utils
 
 /**
  * helper class to check the operating system this Java VM runs in

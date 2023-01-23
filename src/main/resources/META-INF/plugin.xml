@@ -1,21 +1,21 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.nowtilous.projectcolor</id>
+    <id>com.mindflakes.colorizedproject</id>
     <name>Project-Color</name>
     <vendor>nowtilous</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <projectService serviceImplementation="com.github.nowtilous.projectcolor.services.ProjectService"/>
+        <projectService serviceImplementation="com.mindflakes.colorizedproject.services.ProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.nowtilous.projectcolor.listeners.ProjectManagerListener"
+        <listener class="com.mindflakes.colorizedproject.listeners.ProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
     <actions>
-        <action id="ChooseColorAction" class="com.github.nowtilous.projectcolor.ui.ChooseColorAction"
+        <action id="ChooseColorAction" class="com.mindflakes.colorizedproject.ui.ChooseColorAction"
                 text="Choose Color Menu" description="Choose a title bar background color from the menu"
                 icon="AllIcons.Actions.Colors">
             <add-to-group group-id="ToolbarRunGroup" anchor="last"/>

@@ -1,15 +1,15 @@
-package com.github.nowtilous.projectcolor
+package com.mindflakes.colorizedproject
 
-import com.github.nowtilous.projectcolor.color_setters.ColorSetterFactory
-import com.github.nowtilous.projectcolor.ui.AUTO_COLOR_SET_TOGGLED_PATH
-import com.github.nowtilous.projectcolor.utils.getColorBasedOnProjectName
+import com.mindflakes.colorizedproject.color_setters.ColorSetterFactory
+import com.mindflakes.colorizedproject.ui.AUTO_COLOR_SET_TOGGLED_PATH
+import com.mindflakes.colorizedproject.utils.getColorBasedOnProjectName
 import com.intellij.ide.util.PropertiesComponent
 import com.intellij.openapi.project.Project
 import java.awt.Color
 import java.awt.Component
 
-const val COLOR_SETTING_PATH = "com.github.nowtilous.projectcolor.rgb"
-const val OVERRIDE_AUTO_COLOR_CONFIG = "com.github.nowtilous.projectcolor.override_auto_rgb"
+const val COLOR_SETTING_PATH = "com.mindflakes.colorizedproject.rgb"
+const val OVERRIDE_AUTO_COLOR_CONFIG = "com.mindflakes.colorizedproject.override_auto_rgb"
 val gColorLockedComponentMap = mutableMapOf<Component, Boolean>()
 val gProjectLockedComponentsMap = mutableMapOf<Project, List<Component>>()
 val gProjectColorMap = mutableMapOf<Project, Color>()
@@ -24,7 +24,8 @@ fun setTitleBarColor(color: Color, project: Project) {
     ColorSetterFactory.getColorSetter().setTitleBar(color, project)
 
     if(PropertiesComponent.getInstance().getBoolean(AUTO_COLOR_SET_TOGGLED_PATH)
-        && color != getColorBasedOnProjectName(project)){
+        && color != getColorBasedOnProjectName(project)
+    ){
         PropertiesComponent.getInstance(project).setValue(OVERRIDE_AUTO_COLOR_CONFIG, true)
     }
     // save color config for persistence

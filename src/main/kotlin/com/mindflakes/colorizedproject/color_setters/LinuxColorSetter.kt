@@ -1,4 +1,4 @@
-package com.github.nowtilous.projectcolor.color_setters
+package com.mindflakes.colorizedproject.color_setters
 
 /**
  * Linux's layout is very similar to MacOs's, only difference

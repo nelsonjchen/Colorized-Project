@@ -1,6 +1,6 @@
-package com.github.nowtilous.projectcolor.ui
+package com.mindflakes.colorizedproject.ui
 
-import com.github.nowtilous.projectcolor.setTitleBarColor
+import com.mindflakes.colorizedproject.setTitleBarColor
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.PlatformDataKeys

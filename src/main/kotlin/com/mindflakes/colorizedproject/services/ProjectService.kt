@@ -1,10 +1,10 @@
-package com.github.nowtilous.projectcolor.services
+package com.mindflakes.colorizedproject.services
 
-import com.github.nowtilous.projectcolor.COLOR_SETTING_PATH
-import com.github.nowtilous.projectcolor.OVERRIDE_AUTO_COLOR_CONFIG
-import com.github.nowtilous.projectcolor.setTitleBarColor
-import com.github.nowtilous.projectcolor.ui.AUTO_COLOR_SET_TOGGLED_PATH
-import com.github.nowtilous.projectcolor.utils.getColorBasedOnProjectName
+import com.mindflakes.colorizedproject.COLOR_SETTING_PATH
+import com.mindflakes.colorizedproject.OVERRIDE_AUTO_COLOR_CONFIG
+import com.mindflakes.colorizedproject.setTitleBarColor
+import com.mindflakes.colorizedproject.ui.AUTO_COLOR_SET_TOGGLED_PATH
+import com.mindflakes.colorizedproject.utils.getColorBasedOnProjectName
 import com.intellij.ide.util.PropertiesComponent
 import com.intellij.openapi.project.Project
 import java.awt.Color

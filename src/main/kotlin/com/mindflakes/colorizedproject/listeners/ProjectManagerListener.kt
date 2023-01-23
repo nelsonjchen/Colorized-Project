@@ -1,14 +1,14 @@
-package com.github.nowtilous.projectcolor.listeners
+package com.mindflakes.colorizedproject.listeners
 
-import com.github.nowtilous.projectcolor.color_setters.ColorSetterFactory
-import com.github.nowtilous.projectcolor.gColorLockedComponentMap
-import com.github.nowtilous.projectcolor.gProjectColorLockedMap
-import com.github.nowtilous.projectcolor.gProjectColorMap
-import com.github.nowtilous.projectcolor.gProjectLockedComponentsMap
+import com.mindflakes.colorizedproject.color_setters.ColorSetterFactory
+import com.mindflakes.colorizedproject.gColorLockedComponentMap
+import com.mindflakes.colorizedproject.gProjectColorLockedMap
+import com.mindflakes.colorizedproject.gProjectColorMap
+import com.mindflakes.colorizedproject.gProjectLockedComponentsMap
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.nowtilous.projectcolor.services.ProjectService
+import com.mindflakes.colorizedproject.services.ProjectService
 
 internal class ProjectManagerListener : ProjectManagerListener {
 

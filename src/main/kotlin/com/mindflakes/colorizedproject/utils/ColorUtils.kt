@@ -1,4 +1,4 @@
-package com.github.nowtilous.projectcolor.utils
+package com.mindflakes.colorizedproject.utils
 
 import com.intellij.openapi.project.Project
 import com.intellij.ui.ColorUtil

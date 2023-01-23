@@ -1,6 +1,6 @@
-package com.github.nowtilous.projectcolor.color_setters
+package com.mindflakes.colorizedproject.color_setters
 
-import com.github.nowtilous.projectcolor.*
+import com.mindflakes.colorizedproject.*
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.wm.WindowManager
 import com.intellij.ui.ColorUtil

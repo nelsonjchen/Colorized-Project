@@ -1,8 +1,8 @@
-package com.github.nowtilous.projectcolor.ui
+package com.mindflakes.colorizedproject.ui
 
-import com.github.nowtilous.projectcolor.OVERRIDE_AUTO_COLOR_CONFIG
-import com.github.nowtilous.projectcolor.setTitleBarColor
-import com.github.nowtilous.projectcolor.utils.getColorBasedOnProjectName
+import com.mindflakes.colorizedproject.OVERRIDE_AUTO_COLOR_CONFIG
+import com.mindflakes.colorizedproject.setTitleBarColor
+import com.mindflakes.colorizedproject.utils.getColorBasedOnProjectName
 import com.intellij.ide.util.PropertiesComponent
 import com.intellij.openapi.project.ProjectManager
 import javax.swing.Icon
@@ -10,7 +10,7 @@ import javax.swing.ImageIcon
 import javax.swing.JCheckBox
 import javax.swing.colorchooser.AbstractColorChooserPanel
 
-const val AUTO_COLOR_SET_TOGGLED_PATH = "com.github.nowtilous.projectcolor.auto_rgb"
+const val AUTO_COLOR_SET_TOGGLED_PATH = "com.mindflakes.colorizedproject.auto_rgb"
 
 class ColorChooserOptionsPanel : AbstractColorChooserPanel() {
 
