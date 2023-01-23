@@ -8,11 +8,11 @@ This is a fork of the [Project-Color by nowtilous of which the maintenance seems
 
 In general, some stale pull requests have been merged and some issues have been fixed.
 
-The plugin has been renamed to Colorized-Project to avoid confusion with the original plugin.
+The plugin has been renamed to Colorized-Project to namespace away and avoid confusion with the original plugin.
 
 The plugin has been updated to work with the latest IntelliJ versions.
 
-The README below is a WIP.
+The README below is a WIP and may include references to the original plugin.
 
 ---
 
