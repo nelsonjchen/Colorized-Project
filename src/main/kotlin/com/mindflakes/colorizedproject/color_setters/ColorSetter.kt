@@ -15,7 +15,7 @@ import javax.swing.JFrame
 abstract class ColorSetter {
 
     // Title bar's component path down from the main ide component (differs between operating systems)
-    abstract val TITLE_BAR_COMPONENT_PATH: List<String>
+    abstract val title_bar_component_path: List<String>
 
     /**
      * Set title bar color!
@@ -37,7 +37,7 @@ abstract class ColorSetter {
      */
     open fun findTitleBarComponent(
         project: Project,
-        path: List<String> = TITLE_BAR_COMPONENT_PATH
+        path: List<String> = title_bar_component_path
     ): Container {
         val mainIdeComponent = (WindowManager.getInstance().getFrame(project) as JFrame).getComponent(0) as Container
         return findComponent(mainIdeComponent, path) as Container

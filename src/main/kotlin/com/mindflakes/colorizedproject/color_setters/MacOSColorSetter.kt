@@ -7,7 +7,7 @@ import java.awt.Container
 
 open class MacOSColorSetter : ColorSetter() {
 
-    override val TITLE_BAR_COMPONENT_PATH = listOf("JBLayeredPane", "JBPanel", "NonOpaquePanel", "JBBox")
+    override val title_bar_component_path = listOf("JBLayeredPane", "JBPanel", "NonOpaquePanel", "JBBox")
 
     override fun setTitleBar(color: Color, project: Project) {
 

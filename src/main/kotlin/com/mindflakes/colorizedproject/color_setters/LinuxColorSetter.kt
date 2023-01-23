@@ -5,7 +5,7 @@ import com.mindflakes.colorizedproject.utils.getForegroundColorBasedOnBrightness
 import java.awt.Color
 
 class LinuxColorSetter : ColorSetter() {
-    override val TITLE_BAR_COMPONENT_PATH = listOf("JBLayeredPane", "LinuxIdeMenuBar")
+    override val title_bar_component_path = listOf("JBLayeredPane", "LinuxIdeMenuBar")
 
     override fun setTitleBar(color: Color, project: Project) {
         val titleBarComponent = findTitleBarComponent(project)

@@ -8,7 +8,7 @@ import java.awt.Container
 
 class WindowsColorSetter : ColorSetter() {
 
-    override val TITLE_BAR_COMPONENT_PATH = listOf("JBLayeredPane", "MenuFrameHeader")
+    override val title_bar_component_path = listOf("JBLayeredPane", "MenuFrameHeader")
 
     override fun setTitleBar(color: Color, project: Project) {
         val titleBarComponent: Container = findTitleBarComponent(project)
