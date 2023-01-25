@@ -4,8 +4,6 @@
 
 ## [Unreleased]
 
-## [1.0.0]
-
 First release of this fork.
 
 It is based on [Project-Color by nowtilous v1.3.4](https://github.com/nowtilous/Project-Color).
