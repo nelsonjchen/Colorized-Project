@@ -17,7 +17,7 @@ class ChooseColorAction : AnAction() {
         val project = e.dataContext.getData(PlatformDataKeys.PROJECT) as Project
         val currentColor = PropertiesComponent.getInstance(project).getInt(COLOR_SETTING_PATH, getThemeBackgroundColor(e))
 
-        val colorChooser = JColorChooser(Color(currentColor))
+        val colorChooser = JColorChooser(JBColor(Color(currentColor), Color(currentColor)))
         colorChooser.selectionModel.addChangeListener {
             setTitleBarColor(colorChooser.color, project)
         }
