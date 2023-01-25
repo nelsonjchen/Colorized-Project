@@ -2,6 +2,8 @@
 
 # Colorized-Project Changelog
 
+## [Unreleased]
+
 ## [1.0.0]
 
 ### Changed
@@ -16,3 +18,4 @@
 - Fixed issue with the plugin not working on ~2022.3.1 IDEs on macOS.
 - Fixed some state issues with the color selector UI. 
   - https://github.com/nowtilous/Project-Color/pull/22
+
