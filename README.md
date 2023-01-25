@@ -16,11 +16,11 @@ The README below is a WIP and may include references to the original plugin.
 
 ---
 
-![Build](https://github.com/nowtilous/Project-Color/workflows/Build/badge.svg)
+![Build](https://github.com/nelsonjchen/Colorized-Project/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/19463.svg)](https://plugins.jetbrains.com/plugin/19463)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/19463.svg)](https://plugins.jetbrains.com/plugin/19463)
-![](https://img.shields.io/github/issues-closed/nowtilous/Project-Color)
-![](https://img.shields.io/github/issues/nowtilous/Project-Color)
+![](https://img.shields.io/github/issues-closed/nelsonjchen/Colorized-Project)
+![](https://img.shields.io/github/issues/nelsonjchen/Colorized-Project)
 ![](https://img.shields.io/jetbrains/plugin/r/rating/19463)
 
 <!-- Plugin description -->
@@ -40,16 +40,21 @@ Working on multiple projects simultaneously with Jetbrains product based on Inte
 
 ## Compatibility ⚙️
 
-Supports all Intellij IDEs from version 2021.1 (211) and above!
-> ✅ Tested on all versions from 2021.1 to 2022.3
+Supports all Intellij IDEs from version 2022.3 (233) and above!
 
-> ✅ Works on all Intellij products
+> ✅ Tested on all versions up to 2022.3
+
+> ❌ Supported version is a bit optimistic, this plugin may break.
+
+> ❌ Does not work with new GUI, yet.
+
+> ✅ Works on all Jetbrains IntelliJ products.
 
 > ✅ Supports Windows🪟, MacOS🍎 , and Linux🐧 distributions (that Jetbrains support)!
 
 ## Features 💪
 
-  - Set menu frame color (as shown in the Screenshots section).
+  - Set menu frame, menu bar, or bar color (as shown in the Screenshots section).
   > ❔ Next to the build icons, a colorful cube button will popup a menu which allows you to choose colors from.
   - Automatically select colors for all projects, based on every project name.
   > ❔ In the color chooser menu, select the 'Options' tab, and check the auto color set checkbox.
@@ -60,12 +65,12 @@ Supports all Intellij IDEs from version 2021.1 (211) and above!
 
 - Using IDE built-in plugin system:
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Project-Color"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Colorized-Project"</kbd> >
   <kbd>Install Plugin</kbd>
 
 - Manually:
 
-  Download the [latest release](https://github.com/nowtilous/Project-Color/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/nelsonjchen/Colorized-Project/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
