@@ -18,7 +18,7 @@ object OSTypeFactory {
      * @return an OSType enum representing the current os
      */
     fun getOperatingSystemType(): OSType {
-        val os: String = System.getProperty("os.name").toLowerCase()
+        val os: String = System.getProperty("os.name").lowercase()
 
         val detectedOS = if (os.contains("mac")) {
             OSType.MacOS
