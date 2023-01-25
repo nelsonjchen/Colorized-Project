@@ -12,8 +12,6 @@ The plugin has been renamed to Colorized-Project to namespace away and avoid con
 
 The plugin has been updated to work with the latest IntelliJ versions.
 
-The README below is a WIP and may include references to the original plugin.
-
 ---
 
 ![Build](https://github.com/nelsonjchen/Colorized-Project/workflows/Build/badge.svg)
