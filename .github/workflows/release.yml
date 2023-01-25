@@ -33,6 +33,7 @@ jobs:
           cache: gradle
 
       # Set environment variables
+      # Armor the output with base64 to avoid issues with special characters
       - name: Export Properties
         id: properties
         shell: bash
@@ -42,9 +43,7 @@ jobs:
           EOM
           )"
           
-          CHANGELOG="${CHANGELOG//'%'/'%25'}"
-          CHANGELOG="${CHANGELOG//$'\n'/'%0A'}"
-          CHANGELOG="${CHANGELOG//$'\r'/'%0D'}"
+          CHANGELOG="$(echo -n "$CHANGELOG" | base64 -w 0)"          
 
           echo "changelog=$CHANGELOG" >> $GITHUB_OUTPUT
 
@@ -53,7 +52,8 @@ jobs:
         if: ${{ steps.properties.outputs.changelog != '' }}
         env:
           CHANGELOG: ${{ steps.properties.outputs.changelog }}
-        run: |
+        run: |          
+          CHANGELOG="$(echo "$CHANGELOG" | base64 --decode)"
           ./gradlew patchChangelog --release-note="$CHANGELOG"
 
       # Publish the plugin to the Marketplace
