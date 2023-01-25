@@ -24,6 +24,8 @@ The README below is a WIP and may include references to the original plugin.
 ![](https://img.shields.io/jetbrains/plugin/r/rating/19463)
 
 <!-- Plugin description -->
+Maintained fork of [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned](https://github.com/nowtilous/Project-Color/issues/).
+
 Remember your projects by color! Colorize the title bar to differentiate your open projects.
 
 Working on multiple projects simultaneously with intellij products can be difficult,
