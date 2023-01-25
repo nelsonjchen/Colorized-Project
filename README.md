@@ -15,11 +15,11 @@ The plugin has been updated to work with the latest IntelliJ versions.
 ---
 
 ![Build](https://github.com/nelsonjchen/Colorized-Project/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/19463.svg)](https://plugins.jetbrains.com/plugin/19463)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/19463.svg)](https://plugins.jetbrains.com/plugin/19463)
+[![Version](https://img.shields.io/jetbrains/plugin/v/20920.svg)](https://plugins.jetbrains.com/plugin/20920)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/20920.svg)](https://plugins.jetbrains.com/plugin/20920)
 ![](https://img.shields.io/github/issues-closed/nelsonjchen/Colorized-Project)
 ![](https://img.shields.io/github/issues/nelsonjchen/Colorized-Project)
-![](https://img.shields.io/jetbrains/plugin/r/rating/19463)
+![](https://img.shields.io/jetbrains/plugin/r/rating/20920)
 
 <!-- Plugin description -->
 This is a maintained fork of [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned](https://github.com/nowtilous/Project-Color/issues/).
