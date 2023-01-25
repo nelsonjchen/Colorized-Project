@@ -4,8 +4,6 @@
 
 ## [Unreleased]
 
-## [1.0.0]
-
 ### Changed
 
 - Renamed plugin to Colorized-Project and all namespaced references to the plugin.
