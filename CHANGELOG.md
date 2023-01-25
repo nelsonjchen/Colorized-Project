@@ -4,6 +4,12 @@
 
 ## [Unreleased]
 
+## [1.0.1]
+
+### Changed
+
+- Updated short description text
+
 ## [1.0.0]
 
 ### Changed
