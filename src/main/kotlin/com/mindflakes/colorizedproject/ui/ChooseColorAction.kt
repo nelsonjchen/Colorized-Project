@@ -13,6 +13,9 @@ import java.awt.event.ActionListener
 import javax.swing.JColorChooser
 
 class ChooseColorAction : AnAction() {
+
+//  We don't care about JBColor because we don't care about dark mode in this plugin
+    @Suppress("UseJBColor")
     override fun actionPerformed(e: AnActionEvent) {
         val project = e.dataContext.getData(PlatformDataKeys.PROJECT) as Project
         val currentColor = PropertiesComponent.getInstance(project).getInt(COLOR_SETTING_PATH, getThemeBackgroundColor(e))
@@ -33,7 +36,7 @@ class ChooseColorAction : AnAction() {
     }
 
     private fun getThemeBackgroundColor(e: AnActionEvent) : Int {
-        val background: JBColor = e.dataContext.getData(PlatformDataKeys.CONTEXT_COMPONENT)?.background as JBColor
+        val background: Color = e.dataContext.getData(PlatformDataKeys.CONTEXT_COMPONENT)?.background as Color
         return background.rgb
     }
 }
