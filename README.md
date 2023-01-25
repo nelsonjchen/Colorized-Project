@@ -2,18 +2,6 @@
 
 🟨🟥🟩🟦
 
----
-
-This is a fork of the [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned][original].
-
-In general, some stale pull requests have been merged and some issues have been fixed.
-
-The plugin has been renamed to Colorized-Project to namespace away and avoid confusion with the original plugin.
-
-The plugin has been updated to work with the latest IntelliJ versions.
-
----
-
 ![Build](https://github.com/nelsonjchen/Colorized-Project/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/20920.svg)](https://plugins.jetbrains.com/plugin/20920)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/20920.svg)](https://plugins.jetbrains.com/plugin/20920)
@@ -22,11 +10,9 @@ The plugin has been updated to work with the latest IntelliJ versions.
 ![](https://img.shields.io/jetbrains/plugin/r/rating/20920)
 
 <!-- Plugin description -->
-This is a maintained fork of [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned](https://github.com/nowtilous/Project-Color/issues/).
+Remember your projects by color! Colorize the window somehow to differentiate your open projects. Updated and [maintained](https://github.com/nowtilous/Project-Color/issues/) fork of Project-Color.
 
 NOTE: This does not work with the new GUI, yet.
-
-Remember your projects by color! Colorize the window somehow to differentiate your open projects.
 
 Working on multiple projects simultaneously with Jetbrains products based on IntelliJ can be difficult, since they all look the same at a glance. This plugin solves that by giving the user the option to colorize each project's window in a noticeable way.
 <!-- Plugin description end -->
