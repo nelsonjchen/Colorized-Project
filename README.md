@@ -24,7 +24,7 @@ The plugin has been updated to work with the latest IntelliJ versions.
 <!-- Plugin description -->
 This is a maintained fork of [Project-Color by nowtilous of which the maintenance seems to be somewhat abandoned](https://github.com/nowtilous/Project-Color/issues/).
 
-Remember your projects by color! Colorize the title bar to differentiate your open projects.
+Remember your projects by color! Colorize the window somehow to differentiate your open projects.
 
 Working on multiple projects simultaneously with Jetbrains products based on IntelliJ can be difficult, since they all look the same at a glance. This plugin solves that by giving the user the option to colorize each project's window in a noticeable way.
 <!-- Plugin description end -->
