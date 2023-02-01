@@ -12,7 +12,7 @@
 <!-- Plugin description -->
 Remember your projects by color! Colorize the window somehow to differentiate your open projects. Updated and [maintained](https://github.com/nowtilous/Project-Color/issues/) fork of Project-Color.
 
-NOTE: This does not work with the new GUI, yet.
+NOTE: [This does not work with the new beta GUI, yet.](https://github.com/nelsonjchen/Colorized-Project/issues/2)
 
 Working on multiple projects simultaneously with Jetbrains products based on IntelliJ can be difficult, since they all look the same at a glance. This plugin solves that by giving the user the option to colorize each project's window in a noticeable way.
 <!-- Plugin description end -->
