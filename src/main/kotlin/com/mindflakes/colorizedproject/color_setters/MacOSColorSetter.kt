@@ -26,7 +26,9 @@ open class MacOSColorSetter : ColorSetter() {
      */
     private fun findFilePathComponent(titleBarComponent: Container): Container {
         val navBarComponent = findComponent(titleBarComponent,
-            listOf("NavBarRootPaneExtension")
+            listOf(
+                "MyNavBarWrapperPanel",
+            )
         ) as Container
         for (component in navBarComponent.components) {
             for (subComponent in (component as Container).components) {
