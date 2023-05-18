@@ -26,9 +26,9 @@ Working on multiple projects simultaneously with Jetbrains products based on Int
 
 ## Compatibility ⚙️
 
-Supports all Intellij IDEs from version 2022.3 (233) and above!
+Supports all Intellij IDEs from version 2023.1.2 (231) and above!
 
-> ✅ Tested on all versions up to 2022.3
+> ✅ Tested on all versions up to 2022.3.1
 
 > ❌ Supported version is a bit optimistic, this plugin may break.
 
