@@ -1,3 +1,7 @@
+# Looking for Maintainers
+
+I have personally chosen to bite the bullet and switch to Jetbrain's new UI which has similar, not as great, but sufficient colored project functionality built in. As such, this extension is unmaintained and as newer JB IDEs come out, become incompatible. It'll generally need continually bumping and adjustments to handle changes in JetBrain's UI. If you're interested, please make an issue, I'll move this project to an organization, and I'll try to support however I can and am willing to. I will do my best to not give the *silent* treatment. 
+
 # Colorized-Project
 
 🟨🟥🟩🟦
