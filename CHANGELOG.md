@@ -8,7 +8,7 @@
 General version bumps all around in the background
 
 ### Changed
-- Minimum supported IDE base versions is now 2023.1 or build 231 IDEs.
+- Minimum supported IDE base versions is now 2023.2 or build 232 IDEs.
 
 ### Fixed
 - Fixed issue with the plugin not working on 2023.1 or similar IDEs on macOS.
